@@ -1,0 +1,27 @@
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+public class GradeCalculator extends JFrame
+{
+    // frame
+    private JFrame frame;
+    private final int WIDTH;
+    private final int HEIGHT;
+    private final int NUM_ASSIGNMENTS;
+
+    // arrays for assignment labels and text fields
+    private JLabel[] assignmentsLs;
+    private JTextField[] assignmentsTFs;
+
+    // result labels and text fields
+    private JLabel totalL;
+    private JTextField totalTF;
+    private JLabel gradeL;
+    private JTextField gradeTF;
+
+    // buttons
+    private JButton calculateGradeB;
+    private JButton clearB;
+
+    /…
